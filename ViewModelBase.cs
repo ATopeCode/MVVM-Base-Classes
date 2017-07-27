@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 
 namespace Utils
 {
-	public abstract class BindableBase : INotifyPropertyChanged
+	public abstract class ViewModelBase : INotifyPropertyChanged
     {
         /// <summary>
         /// Evento de la interfaz 'INotifyPropertyChanged' al que se suscribe automáticamente el motor XAML de Xamarin
